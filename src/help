@@ -1,0 +1,91 @@
+git {
+    git initialization: {
+        git init
+        git config --global user.name "name"
+        git config --global user.email example@yandex.com
+    }
+
+    file tracking:
+        git add -A
+        git rm --cached <src/fileName>
+    
+    file commiting: 
+        git commit -a -m"nameOfCommit"
+
+    file connecting to gitHub: 
+        git remote add origin yourLink
+
+    file pushing: 
+        git push -u origin master     ->
+        -> git push  
+
+    //: 
+        git status
+        git log
+
+    --------------------------------------------------------------------
+
+    other pc:
+
+    find pulling folder {
+        cd..
+        cd nameOfTheFolder
+    }   
+
+    git repository pulling: 
+        git clone linkOfTheRepository secondFolderName
+        git pull
+    } 
+}
+
+npm {
+    downloading node js
+    npm init
+    npm install nameOfPackage
+    
+    nodemon {
+        npm install -g nodemon
+        npm install --save-dev nodemon
+    }
+    gulp {
+        npm install gulp-cli -g
+        -> npm install gulp-cli --save-dev /локальна€ установка/
+        npm i gulp-sass --save-dev /компил€ци€ sass/    
+        npm i gulp-autoprefixer --save-dev
+        npm i fulp-clean-css --save-dev
+    }
+    browser-sync /синхронизаци€ с браузером/{
+        npm install -g browser-sync
+        -> npm install --save-dev browser-sync
+    }
+    sass {
+    npm i sass --save-dev
+    }
+}
+
+расширени€ {
+    - all autocomplete
+    - code runner
+    - import cost /объем импортированных данных/
+    - jshint /подчеркивание ошибок в js/
+    --------------------------------------------
+    - live sass compiler /лайв компил€ци€ sass -> css/ (settings.json){
+        {
+                "liveSassCompile.settings.formats": [
+                {
+                    "format": "expanded",
+                    "extensionName": ".css",
+                    "savePath": "/css",
+                }
+            ],
+            "liveSassCompile.settings.autoprefix": [
+                "> 1%",
+                "last 2 versions"
+            ],
+        }
+    --------------------------------------------
+    - live server /создает локальный сервер/
+    - powershell
+    - sass
+    - russian language pack 
+}
