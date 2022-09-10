@@ -48,13 +48,15 @@ npm {
         npm install --save-dev nodemon
     }
     gulp {
+        npm i gulp
+        npm i gulp --save-dev
         npm install gulp-cli -g
-        -> npm install gulp-cli --save-dev /локальная установка/
-        npm i gulp-sass --save-dev /компиляция sass/    
+        -> npm install gulp-cli --save-dev /Г«Г®ГЄГ Г«ГјГ­Г Гї ГіГ±ГІГ Г­Г®ГўГЄГ /
+        npm i gulp-sass --save-dev /ГЄГ®Г¬ГЇГЁГ«ГїГ¶ГЁГї sass/    
         npm i gulp-autoprefixer --save-dev
         npm i fulp-clean-css --save-dev
     }
-    browser-sync /синхронизация с браузером/{
+    browser-sync /Г±ГЁГ­ГµГ°Г®Г­ГЁГ§Г Г¶ГЁГї Г± ГЎГ°Г ГіГ§ГҐГ°Г®Г¬/{
         npm install -g browser-sync
         -> npm install --save-dev browser-sync
     }
@@ -63,13 +65,13 @@ npm {
     }
 }
 
-расширения {
+Г°Г Г±ГёГЁГ°ГҐГ­ГЁГї {
     - all autocomplete
     - code runner
-    - import cost /объем импортированных данных/
-    - jshint /подчеркивание ошибок в js/
+    - import cost /Г®ГЎГєГҐГ¬ ГЁГ¬ГЇГ®Г°ГІГЁГ°Г®ГўГ Г­Г­Г»Гµ Г¤Г Г­Г­Г»Гµ/
+    - jshint /ГЇГ®Г¤Г·ГҐГ°ГЄГЁГўГ Г­ГЁГҐ Г®ГёГЁГЎГ®ГЄ Гў js/
     --------------------------------------------
-    - live sass compiler /лайв компиляция sass -> css/ (settings.json){
+    - live sass compiler /Г«Г Г©Гў ГЄГ®Г¬ГЇГЁГ«ГїГ¶ГЁГї sass -> css/ (settings.json){
         {
                 "liveSassCompile.settings.formats": [
                 {
@@ -84,7 +86,7 @@ npm {
             ],
         }
     --------------------------------------------
-    - live server /создает локальный сервер/
+    - live server /Г±Г®Г§Г¤Г ГҐГІ Г«Г®ГЄГ Г«ГјГ­Г»Г© Г±ГҐГ°ГўГҐГ°/
     - powershell
     - sass
     - russian language pack 
