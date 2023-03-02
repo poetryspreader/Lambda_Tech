@@ -1,0 +1,42 @@
+{
+  "name": "lambdatech",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poetryspreader/Lambda_Tech.git"
+  },
+  "author": "iljalifshic",
+  "license": "ISC",
+  "devDependencies": {
+    "@splinetool/runtime": "^0.9.106",
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "jquery": "^3.6.1",
+    "jshint": "^2.13.5",
+    "sass": "^1.54.9",
+    "tsd": "^0.24.1"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 11"
+  ],
+  "dependencies": {
+    "jquery.terminal": "^2.34.0"
+  },
+  "bugs": {
+    "url": "https://github.com/poetryspreader/appCrypto/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/poetryspreader/appCrypto#readme"
+}

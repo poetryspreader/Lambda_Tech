@@ -1,0 +1,109 @@
+@import"https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap"
+@import"https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap"
+
+li,a,button 
+	font-family: "Montserrat",sans-serif
+	font-weight: 400
+	font-size: 14px
+	color: #fff
+	text-decoration: none
+	letter-spacing: 1px
+
+* 
+	box-sizing: border-box
+	margin: 0
+	padding: 0
+	
+body 
+	background: linear-gradient(-45deg, #594843, #484459, #334247, #344541)
+	background-size: 400% 400%
+	animation: gradient 15s ease infinite
+
+.header 
+	width: 100%
+	&__inner 
+		padding: 20px 40px
+		width: 100%
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&__logo
+		font-size: 30px
+		cursor: pointer
+		.nav__links
+			list-style: none
+			font-size: 13px
+			margin-left: -30px
+	li
+		text-transform: uppercase
+		display: inline-block
+		padding: 0px 15px
+		a
+			display: block
+			font-size: 25px
+			font-family: "Roboto Condensed",sans-serif
+			padding: 5px 30px
+			border: 2px solid #427f71
+			border-radius: 4px
+			transition: .3s
+			opacity: .9
+			background-color: #37383e
+			box-shadow: 2px 2px 1px #43685f
+			&:hover 
+				border-color: #6cb7a5
+				margin: -3px 40px -4px
+				padding: 8px 15px
+				-webkit-box-reflect: below -1px linear-gradient(transparent, rgba(0, 0, 0, 0.2666666667))
+				opacity: 1
+				box-shadow: 2px 2px 1px #5f8f84
+.contact__btn 
+	a
+		display: block
+		font-size: 25px
+		padding: 8px 25px
+		border: 2px solid #d44657
+		border-radius: 10px
+		transition: .3s
+		opacity: .9
+		background-color: #32333b
+		&:hover
+			border-color: #d36572
+			margin: -4px 4px
+			padding: 12px 21px
+			-webkit-box-reflect: below -1px linear-gradient(transparent, rgba(0, 0, 0, 0.2666666667))
+			opacity: 1
+.promo 
+	padding-top: 100px
+	text-align: center
+	width: 100%
+	color: #fff
+	font-family: "Montserrat",sans-serif
+
+.promo__title 
+	font-size: 100px
+	font-weight: 500
+	opacity: .9
+
+.promo__text 
+	padding-top: 30px
+	line-height: 1.5
+	font-size: 20px
+	font-weight: 300
+
+.promo__btn 
+	padding-top: 75px
+	a 
+		background-image: linear-gradient(to right, #FC354C 0%, #0ABFBC 51%, #FC354C 100%)
+		padding: 15px 45px
+		text-align: center
+		text-transform: uppercase
+		transition: .5s
+		background-size: 200% auto
+		border-radius: 10px
+		border: 1px solid #c4c4c4
+		opacity: .9
+		&:hover 
+			background-position: right center
+			box-shadow: 2px 2px 2px #b4bbbb
+			padding: 15px 25px
+
