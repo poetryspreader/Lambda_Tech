@@ -1,47 +1,45 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Nav from './components/lt-navbar.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
+  <Nav />
   <main>
-    <TheWelcome />
+    <h1>
+    Full automation.<br>
+    Diversification.
+  </h1>
   </main>
+
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
+
+main {
+  display: flex;
+  text-align: center;
+  place-items: center;
+  place-content: center;
+  margin: 0 auto;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+h1 {
+  margin-top: 178px;
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
 
-  .logo {
-    margin: 0 2rem 0 0;
-  }
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
+
+
+
+
+
+
+
+
+
+
+/* @media (min-width: 1024px) {
+
+} */
 </style>

@@ -1,0 +1,15 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --vt-c-white: #ffffff;
+
+  --vt-c-black: #000000;
+
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--vt-c-black);
+  --color-text: var(--vt-c-white);
+
+  --section-gap: 160px;
+}
