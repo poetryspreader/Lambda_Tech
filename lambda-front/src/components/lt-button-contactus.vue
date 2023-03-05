@@ -13,8 +13,9 @@ defineProps({
 
 <style scoped>
 
-/* .button {
-
-} */
+.button {
+    width: 190px;
+    height: 62px;
+}
 
 </style>
