@@ -14,12 +14,10 @@ defineProps({
 
 </template>
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
 
 h1 {
     font-size: 40px;
     margin-left: 5px;
-    font-family: 'Manrope', sans-serif;
     font-weight: 800;
 }
 
