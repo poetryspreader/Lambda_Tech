@@ -15,7 +15,7 @@ defineProps({
     top: 30%;
     transform: translateX(-50%);
     width: 90%;
-    height: 670px;
+    height: 630px;
     background-color: #fff;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;

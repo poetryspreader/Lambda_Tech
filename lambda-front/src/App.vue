@@ -21,8 +21,8 @@ import Smedia from './components/lt-smedia.vue'
       our data driven, market-proven solutions
     </h2>
     <Button getintouch="Get in touch"/>
-    <Footer />
     <Smedia />
+    <Footer />
   </main>
   <Ellipse />
 </template>
