@@ -4,8 +4,7 @@ defineProps({
 </script>
 
 <template>
-    <div class="ellipse">
-    </div>
+    <div class="ellipse"></div>
 </template>
 
 <style scoped>
@@ -16,9 +15,10 @@ defineProps({
     top: 30%;
     transform: translateX(-50%);
     width: 90%;
-    height: 1800px;
+    height: 670px;
     background-color: #fff;
-    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
     z-index: 0;
     background: -webkit-linear-gradient(180deg, #7000FF 0%,#AE2727 100%);
     filter: blur(150px);

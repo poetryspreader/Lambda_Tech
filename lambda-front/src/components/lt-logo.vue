@@ -5,15 +5,20 @@ defineProps({
     label: String,
 })
 </script>
+
 <template>
-    <div class="wrapper">
+    <div>
         <LogoIcon/>
         <h1>{{ label }}</h1>
     </div>
-
-
 </template>
+
 <style scoped>
+
+div {
+    display: flex;
+    align-items: center;
+}
 
 h1 {
     font-size: 40px;

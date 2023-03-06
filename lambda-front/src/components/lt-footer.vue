@@ -13,10 +13,10 @@ defineProps({
 <style scoped>
 
 .footer {
-    margin-top: 100px;
+    /* position: absolute; */
+    display: block;
+    text-align: center;
+    z-index: 1;
 }
-
-
-
 
 </style>

@@ -3,6 +3,7 @@ import Navi from './components/lt-navbar.vue'
 import Ellipse from './components/lt-ellipse.vue'
 import Button from './components/lt-button-getintouch.vue'
 import Footer from './components/lt-footer.vue'
+import Smedia from './components/lt-smedia.vue'
 </script>
 
 <template>
@@ -21,6 +22,7 @@ import Footer from './components/lt-footer.vue'
     </h2>
     <Button getintouch="Get in touch"/>
     <Footer />
+    <Smedia />
   </main>
   <Ellipse />
 </template>

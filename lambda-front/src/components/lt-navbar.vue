@@ -13,8 +13,6 @@ import ContactUs from './lt-button-contactus.vue'
         </div>
         </div>
     </nav>
-
-
 </template>
 
 <style scoped>
@@ -23,6 +21,7 @@ nav {
     padding: 0 150px;
     padding-top: 90px;
 }
+
 .wrapper {
     display: flex;
     align-items: center;
@@ -36,8 +35,5 @@ a {
     font-size: 18px;
     color: var(--lt-c-white);
 }
-
-
-
 
 </style>
