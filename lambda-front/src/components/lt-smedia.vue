@@ -16,7 +16,9 @@ defineProps({
 <style scoped>
 
 .smedia {
-
+    margin-top: 30px;
+    /* display: flex;
+    flex-direction: row; */
 }
 
 </style>
