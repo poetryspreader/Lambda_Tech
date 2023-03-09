@@ -8,8 +8,12 @@ defineProps({
 
 <template>
     <div class="smedia">
-        <telegram_logo />
-        <linkedin_logo />
+        <a href="https://t.me/rbdubas">
+            <telegram_logo />
+        </a>
+        <a href="https://www.linkedin.com/company/lambdatechnology/">
+            <linkedin_logo />
+        </a>
     </div>
 </template>
 
@@ -17,8 +21,9 @@ defineProps({
 
 .smedia {
     margin-top: 30px;
-    /* display: flex;
-    flex-direction: row; */
 }
 
+a {
+    margin: 0 5px;
+}
 </style>

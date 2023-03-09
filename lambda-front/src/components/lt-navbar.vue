@@ -5,12 +5,10 @@ import ContactUs from './lt-button-contactus.vue'
 
 <template>
     <nav>
-        <div class="wrapper">
         <Logo label="Lambda Tech"/>
         <div>
             <a href="#" target="_blank">About us</a>
             <ContactUs contactUs="Contact Us"/>
-        </div>
         </div>
     </nav>
 </template>
@@ -18,15 +16,11 @@ import ContactUs from './lt-button-contactus.vue'
 <style scoped>
 
 nav {
-    padding: 0 150px;
-    padding-top: 90px;
-}
-
-.wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    padding: 0 150px;
+    padding-top: 65px;
 }
 
 a {
@@ -36,4 +30,7 @@ a {
     color: var(--lt-c-white);
 }
 
+
+@media (min-width: 1024px) {
+}
 </style>

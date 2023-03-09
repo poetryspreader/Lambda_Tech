@@ -1,19 +1,11 @@
-<script setup>
-import Navi from './components/lt-navbar.vue'
-import Ellipse from './components/lt-ellipse.vue'
-import Button from './components/lt-button-getintouch.vue'
-import Footer from './components/lt-footer.vue'
-import Smedia from './components/lt-smedia.vue'
-</script>
-
 <template>
   <Navi />
   <main>
     <h1 class="title">
       <span>
-        Full automation.
+        {{ title1 }}
       </span><br>
-      Diversification.
+      {{ title2 }}
     </h1>
     <h2 class="text">
       Quantitative cryptocurrency trading platform designed to capitalize<br>
@@ -27,6 +19,26 @@ import Smedia from './components/lt-smedia.vue'
   <Ellipse />
 </template>
 
+<script>
+import Navi from './components/lt-navbar.vue'
+import Ellipse from './components/lt-ellipse.vue'
+import Button from './components/lt-button-getintouch.vue'
+import Footer from './components/lt-footer.vue'
+import Smedia from './components/lt-smedia.vue'
+
+export default {
+  components: {
+    Navi, Button, Smedia, Footer, Ellipse
+  },
+  setup() {
+    return {
+      title1: 'Full automation',
+      title2: 'Diversification.'
+    }
+  }
+}
+</script>
+
 <style scoped>
 
 main {
@@ -37,7 +49,7 @@ main {
 }
 
 .title {
-  margin-top: 100px;
+  margin-top: 70px;
   margin-bottom: 30px;
   font-weight: 800;
   font-size: 80px;
@@ -53,13 +65,11 @@ span {
 .text {
   max-width: 800px;
   margin: 0 auto;
-  line-height: 43px;
+  line-height: 38px;
   font-size: 24px;
   font-weight: 400;
 }
 
 
-/* @media (min-width: 1024px) {
 
-} */
 </style>
